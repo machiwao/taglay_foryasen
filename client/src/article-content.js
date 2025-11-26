@@ -1,55 +1,29 @@
 const articles = [
-    {
-        name: "react-props-and-styling", // String
-        title: "Understanding React Props and Styling", //String
-        // List --> String
-        content: [
-            "Props (short for properties) allow you to pass data between components. They are read-only and essential for component reusability.",
-            "Example:\nfunction Welcome(props) {\n  return <h1>Hello, {props.name}!</h1>;\n}",
-            "React supports multiple styling approaches: inline styles, CSS files, CSS Modules, and styled-components.",
-            "Inline Style Example:\nconst style = { color: 'blue' };\n<p style={style}>Styled Text</p>"
-        ]
-    },
-    {
-        name: "react-functional-components",
-        title: "React Functional Components",
-        content: [
-            "Functional components are simple JavaScript functions that return JSX.",
-            "They are stateless by default but can use hooks like useState and useEffect.",
-            "Example:\nfunction HelloWorld() {\n  return <h1>Hello, World!</h1>;\n}",
-            "They are preferred in modern React apps for simplicity and performance."
-        ]
-    },
-    {
-        name: "react-component-lifecycle",
-        title: "React Component Lifecycle",
-        content: [
-            "Class components have lifecycle methods: mounting, updating, unmounting.",
-            "Key methods include: componentDidMount, componentDidUpdate, componentWillUnmount.",
-            "Functional components use the useEffect hook to mimic lifecycle behavior.",
-            "Example:\nuseEffect(() => {\n  console.log('Mounted');\n  return () => console.log('Unmounted');\n}, []);"
-        ]
-    },
-    {
-        name: "react-routing-basics",
-        title: "React Router Basics",
-        content: [
-            "React Router allows navigation between pages without a page reload.",
-            "Set up routes using BrowserRouter, Routes, and Route components.",
-            "Example:\n<Routes>\n  <Route path=\"/\" element={<Home />} />\n  <Route path=\"/about\" element={<About />} />\n</Routes>",
-            "Use Link component for navigation:\n<Link to=\"/about\">About</Link>"
-        ]
-    },
-    {
-        name: "react-state-management",
-        title: "Managing State in React",
-        content: [
-            "State allows components to keep track of dynamic data.",
-            "useState hook lets functional components manage state.",
-            "Example:\nconst [count, setCount] = useState(0);",
-            "Updating state triggers a re-render with the new value."
-        ]
-    }
-];
+  {
+    name: 'getting-started',
+    title: "Getting Started with Taglay",
+    content: [
+      "Taglay is a lightweight note-taking and article demo built to show routing and component structure in a React + Vite app. This introductory article explains the project's purpose, how articles are structured, and where to find components in the source tree.",
+      "The app stores articles as plain JavaScript objects exported from `article-content.js`. Each article includes a `name` used for routing, a `title` shown in lists and pages, and a `content` array where each entry represents a paragraph. This makes it easy to render previews and full articles.",
+      "If you're exploring the code, open `src/components/ArticleList.jsx` to see how previews are generated and `src/pages/ArticlePage.jsx` to see the full article rendering."
+    ]
+  },
+  {
+    name: 'design-decisions',
+    title: "Design Decisions Behind the UI",
+    content: [
+      "This article walks through some simple design choices used in the demo: component-driven layout, CSS modules for small isolated styles, and client-side routing with `react-router-dom`. These choices keep the demo approachable while reflecting common front-end patterns.",
+      "The navigation is intentionally minimal. `Layout.jsx` centralizes page scaffolding while `NavBar.jsx` provides top-level links. The project uses Vite for fast development builds and HMR."
+    ]
+  },
+  {
+    name: 'tips-and-tricks',
+    title: "Tips and Tricks for Extending Taglay",
+    content: [
+      "Here are a few tips if you want to extend this demo: add a markdown parser for richer article content, persist drafts to localStorage, or connect to a headless CMS for real content. Each change maps cleanly onto the project's file structure.",
+      "For example, replace the `content` array with markdown strings and render them with `react-markdown`. Or add a search component that filters the `articles` array by title or paragraph content."
+    ]
+  }
+]
 
 export default articles;
