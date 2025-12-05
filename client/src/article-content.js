@@ -24,6 +24,23 @@ const articles = [
       "For example, replace the `content` array with markdown strings and render them with `react-markdown`. Or add a search component that filters the `articles` array by title or paragraph content."
     ]
   }
+  ,
+  {
+    name: 'integrations-and-apis',
+    title: "Integrations and APIs: Connecting Taglay",
+    content: [
+      "This article covers simple integration ideas for Taglay: how to pull articles from a headless CMS, sync drafts with a cloud backend, or embed third-party widgets. The demo keeps articles as JS objects, but that surface can easily be replaced with fetched data.",
+      "A practical approach is to keep the same article shape (name, title, content) and map fetched JSON into that shape. That makes the UI components reusable whether content is local or remote. We'll also touch on batching requests and simple caching strategies for better UX."
+    ]
+  },
+  {
+    name: 'accessibility-basics',
+    title: "Accessibility Basics for Small React Apps",
+    content: [
+      "Accessibility doesn't have to be hard. Start with semantic HTML, proper heading order, and keyboard-accessible navigation. For Taglay, ensure article headings use <h1>/<h2> appropriately, nav links are focusable, and interactive controls have visible focus states.",
+      "You can add tools like axe-core during development to catch common issues, and include alt text for images used in articles. Small, incremental improvements make the app more inclusive without large rewrites."
+    ]
+  }
 ]
 
 export default articles;

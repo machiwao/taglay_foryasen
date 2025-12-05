@@ -12,8 +12,9 @@ function HomePage() {
           <p className="eyebrow">Frontend studio</p>
           <h1>Polished UI patterns without the corporate beige.</h1>
           <p className="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec euismod posuere a aliquam
-            mattis ac sed nibh tincidunt non ultrices.
+            Practical frontend patterns, short walkthroughs, and reusable snippets — from
+            integrations and APIs to accessibility and small-app extensibility. Learn by
+            example and apply the same patterns to your React projects.
           </p>
           <div className="hero-actions">
             <Link to="/articles" className="button-link primary">
@@ -46,8 +47,9 @@ function HomePage() {
               alt="Design desk with colorful UI elements"
             />
             <p className="muted">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices in velit varius
-              rutrum vitae arcu.
+              Examples cover connecting to headless CMSs, syncing drafts, improving keyboard
+              navigation and focus states, and adding markdown-driven content without heavy
+              rewrites.
             </p>
           </div>
         </div>
@@ -63,27 +65,27 @@ function HomePage() {
         </div>
         <div className="feature-grid">
           <div className="feature-card">
-            <div className="feature-icon">UI</div>
-            <h3>Layout recipes</h3>
+            <div className="feature-icon">API</div>
+            <h3>Integrations &amp; APIs</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac sed augue sem sit bibendum
-              at dui varius.
+              Practical guidance for connecting Taglay to headless CMSs, syncing drafts, and
+              embedding third-party widgets while keeping the UI components reusable.
             </p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon">FE</div>
-            <h3>React clarity</h3>
+            <div className="feature-icon">A11Y</div>
+            <h3>Accessibility basics</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies suspendisse
-              pellentesque auctor habitant amet.
+              Small, actionable tips—semantic headings, keyboard-friendly navigation, visible
+              focus states and recommended tools (like axe-core) to catch common issues.
             </p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon">UX</div>
-            <h3>Microcopy cues</h3>
+            <div className="feature-icon">EXT</div>
+            <h3>Extending Taglay</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis nisl ultricies
-              dignissim vulputate est.
+              How to add markdown support, persist drafts to localStorage, and add search—patterns
+              that map cleanly onto the project's file structure.
             </p>
           </div>
         </div>

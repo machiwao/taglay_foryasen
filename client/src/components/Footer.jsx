@@ -18,7 +18,7 @@ function Footer() {
                 </div>
                 <div className="footer-section">
                     <h4>Contact</h4>
-                    <p>Email: cyrusrobles@company.com</p>
+                    <p>Email: foryasenbd@students.national-u.edu.ph</p>
                     <p>Phone: 09**-***-****</p>
                 </div>
                 <div className="footer-section">
@@ -37,7 +37,7 @@ function Footer() {
                 </div>
             </div>
             <div className="footer-bottom">
-                    <p>&copy; {currentYear} Your Company Name. All rights reserved.</p>
+                    <p>&copy; {currentYear} National University - Philippines. All rights reserved.</p>
             </div>
         </footer>
     );

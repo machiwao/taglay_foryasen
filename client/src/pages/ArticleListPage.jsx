@@ -26,8 +26,8 @@ function ArticleListPage() {
         <p className="eyebrow">Library</p>
         <h1>Articles crafted for UI-minded developers.</h1>
         <p className="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper massa sit a, nunc volutpat
-          elit tortor.
+          A curated library of short, hands-on guides: layout recipes, integration examples, and
+          accessibility tips you can reuse directly in your React projects.
         </p>
       </div>
 
@@ -40,8 +40,8 @@ function ArticleListPage() {
       <div className="cta-banner">
         <h3>Looking for more?</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel purus faucibus neque sed
-          elementum feugiat.
+          Browse articles on connecting to headless CMSs, improving keyboard navigation and focus
+          states, or extending the demo with markdown and local draft persistence.
         </p>
         <Link to="/about" className="button-link secondary">
           Meet the crew

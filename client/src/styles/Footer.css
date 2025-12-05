@@ -1,6 +1,6 @@
 .corporate-footer {
-  background: #0f172a;
-  color: #e2e8f0;
+  background: var(--text);
+  color: #e9f2f6;
   padding: 54px 0 32px;
   margin-top: 72px;
 }
@@ -21,7 +21,7 @@
 }
 
 .footer-section p {
-  color: #cbd5e1;
+  color: #d7e6ee;
   line-height: 1.6;
   margin: 4px 0;
 }
@@ -37,7 +37,7 @@
 }
 
 .social-links a:hover {
-  color: #0ea5e9;
+  color: var(--accent);
   transform: translateY(-2px);
 }
 
@@ -46,7 +46,7 @@
   margin: 28px auto 0;
   text-align: center;
   padding-top: 18px;
-  border-top: 1px solid rgba(226, 232, 240, 0.18);
-  color: #94a3b8;
+  border-top: 1px solid rgba(212, 226, 233, 0.12);
+  color: #9fb6c3;
   font-size: 0.95rem;
 }

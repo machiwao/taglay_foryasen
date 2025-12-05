@@ -24,8 +24,8 @@ function ArticlePage() {
           <span className="muted">{minutes} min read</span>
         </div>
         <p className="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus egestas blandit
-          fringilla platea quam vel.
+          A curated library of short, hands-on guides: layout recipes, integration examples, and
+          accessibility tips you can reuse directly in your React projects.
         </p>
       </div>
 
@@ -36,8 +36,8 @@ function ArticlePage() {
         <div className="card callout">
           <h3>Want another angle?</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet nisl eu condimentum
-            tincidunt pulvinar sed commodo.
+            Browse articles on connecting to headless CMSs, improving keyboard navigation and focus
+          states, or extending the demo with markdown and local draft persistence.
           </p>
           <Link to="/articles" className="button-link primary">
             Browse more articles
